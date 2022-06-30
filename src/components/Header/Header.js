@@ -18,7 +18,7 @@ const Header = () => (
   <>
     <Container>
       <Div1>
-        <Link href="/">
+        <Link href="https://yashmnc.github.io/">
           <a
             style={{
               display: "flex",
@@ -29,7 +29,7 @@ const Header = () => (
             }}
           >
             <DiCssdeck size="3rem" />
-            <Span>Portfolio</Span>
+            <Span>YashMnC</Span>
           </a>
         </Link>
       </Div1>

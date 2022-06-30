@@ -80,6 +80,10 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
+  @media (max-width: 300px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const ExternalLink = styled.a`
@@ -92,12 +96,19 @@ export const ExternalLink = styled.a`
   &:hover {
     background: #801414;
   }
+  @media (max-width: 300px) {
+    margin: 2px;
+  }
 `;
 
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 export const Tag = styled.li`
   color: #d8bfbf;

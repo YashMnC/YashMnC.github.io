@@ -43,6 +43,7 @@ export const Div2 = styled.div`
   }
   @media (max-width: 1000px) {
     flex-direction: column;
+    margin-bottom: 5px;
   }
 `;
 export const Div3 = styled.div`
