@@ -1,0 +1,22 @@
+{
+  "homepage": "https://YashMnC.github.io/YashMnC.github.io",
+  "name": "portfolio_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "10.2.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.0",
+    "styled-normalize": "^8.0.7",
+    "react-icons": "^4.2.0"
+  }
+}
