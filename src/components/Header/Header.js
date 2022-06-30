@@ -33,13 +33,7 @@ const Header = () => (
           </a>
         </Link>
       </Div1>
-      <Div2
-        style={{
-          display: "flex",
-
-          justifyContent: "space-around",
-        }}
-      >
+      <Div2>
         <li>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
@@ -57,7 +51,6 @@ const Header = () => (
         </li>
       </Div2>
     </Container>
-
     <Div3>
       <SocialIcons href="https://github.com/YashMnC" target="_blank">
         <AiFillGithub size="3rem" />
